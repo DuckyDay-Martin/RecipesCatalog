@@ -262,6 +262,7 @@
             this.panelTitle.Name = "panelTitle";
             this.panelTitle.Size = new System.Drawing.Size(836, 80);
             this.panelTitle.TabIndex = 1;
+            this.panelTitle.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTitle_Paint);
             // 
             // btnHome
             // 

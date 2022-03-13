@@ -80,6 +80,7 @@
             this.btnRemoveSalad.TabIndex = 3;
             this.btnRemoveSalad.Text = "Remove";
             this.btnRemoveSalad.UseVisualStyleBackColor = true;
+            this.btnRemoveSalad.Click += new System.EventHandler(this.btnRemoveSalad_Click);
             // 
             // btnAddSalad
             // 
@@ -91,6 +92,7 @@
             this.btnAddSalad.TabIndex = 4;
             this.btnAddSalad.Text = "Add";
             this.btnAddSalad.UseVisualStyleBackColor = true;
+            this.btnAddSalad.Click += new System.EventHandler(this.btnAddSalad_Click);
             // 
             // btnSaladUnfavourite
             // 

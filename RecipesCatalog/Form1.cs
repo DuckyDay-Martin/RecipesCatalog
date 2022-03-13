@@ -83,5 +83,10 @@ namespace RecipesCatalog
         {
             OpenChildForm(new Forms.DesertsForm(), sender);
         }
+
+        private void panelTitle_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
